@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "Matt Pryer <mwpryer@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./styles/tailwind.css -o ./styles/style.css",
+    "watch:css": "tailwindcss -i ./styles/tailwind.css -o ./styles/style.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
